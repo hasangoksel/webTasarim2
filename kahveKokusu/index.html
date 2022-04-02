@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="tr" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css">
+    <title>Kahve Kokusu</title>
+</head>
+
+<body class="h-100 d-flex flex-column">
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mobile">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="mobile" class="collapse navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link active">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="menu.html" class="nav-link">Menü</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact.html" class="nav-link">İletişim</a>
+                    </li>
+
+                </ul>
+                <!--<form class="d-flex">
+                    <input type="text" class="form-control me-1" placeholder="Search">
+                    <button class="btn btn-warning">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </button>
+                </form>
+            -->
+            </div>
+        </div>
+    </nav>
+    <header>
+        <div class="text-center pt-4 mt-4 px-4 border-bottom">
+            <img src="img/logo.jpg" alt="" class="img-fluid border rounded-3 shadow-lg
+            mb-4">
+            <h1 class=" display-4 fw-bold ">Yeni Kahve Kokusu</h1>
+            <div class=" col-lg-6 mx-auto ">
+                <p class="lead mb-4 ">Nitelikli kahvenin değişilmez adresi Yeni Kahve Kokusu. Dünya üzerindeki birçok bildiğiniz veya bilmediğiniz lezzeti sizlerle buluşturmaya hazır.</p>
+                <!--<div class="d-grid gap-2 d-md-flex justify-content-md-center mb-5 ">
+                    <button class="btn btn-primary btn-lg ">
+                            <i class="fa-solid fa-caret-right "></i> Button</button>
+                    <button class="btn btn-outline-secondary btn-lg ">
+                            <i class="fa-solid fa-caret-right "></i> Button</button>
+                </div>
+            -->
+            </div>
+            <!--<div class="overflow-hidden " style="max-height: 30vh; ">
+                <div class="container px-5 ">
+                    <img src="https://cdn5.f-cdn.com/contestentries/1301217/27758306/5acbe9c5814e4_thumb900.jpg " alt=" " class="img-fluid border rounded-3 shadow-lg mb-4 " width="700 " height="500 ">
+                </div>
+            </div>-->
+        </div>
+    </header>
+    <main>
+
+        <div class="bg-dark px-4 py-4 text-center text-white">
+            <div class="col-lg-6 mx-auto">
+                <p class="lead mb-4">Siz de merak ettiniz mi? Kahvenizin içeriğini ve nasıl yapıldığını merak edenler için kahvelerimiz aşağıdadır. Dilerseniz menüye de gidebiliriz.</p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-center">
+                    <a href="menu.html" class="btn btn-outline-light btn-lg">Menü</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container my-4 mt-6">
+            <div class="row row-cols-1 row-cols-lg-3 row-cols-md-2 g-4">
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/espresso-photo-range-min1.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Espresso</h5>
+                            <p class="card-text">Sıkıştırılmış ve ince öğütülmüş kahveyle birlikte 90 derecelik suyun 30 saniye boyunca, 9 bar basınçla demlenmesiyle hazırlanıyor. Espresso, 30 mL’lik shot bardaklarında servis edilir. Elektrikli makinelerin yanı sıra ocak
+                                üstünde moka pot aracılığıyla da Espresso hazırlayabilirsiniz. İtalyanlara özgü olan Espresso, diğer birçok kahvenin de ana malzemesini oluşturuyor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/pg-americano-with-coffee-beans-1616491780.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Americano</h5>
+                            <p class="card-text">Espresso’dan daha yumuşak, filtre kahveden ise daha sert içimi olan Americano kısaca, Espresso’nun sıcak suyla seyreltilmiş halidir. Americano’nun sertlik miktarını, Espresso miktarı, Espresso içerisinde bulunan kahve miktarı
+                                ve su miktarı ile rahatça ayarlayabilirsiniz. Americano, adından kaynaklı olarak Amerika Birleşik Devletleri’nde içilmeye başlandığı düşünülebilir. Fakat hikaye biraz daha farklı. 2. Dünya Savaşı sırasında Amerikan askerleri,
+                                Espresso ile tanışırlar. Kendilerine yoğun, sert ve az gelen Espresso’ya sıcak su ekleyerek kendi damak tatlarına uygun hale getirirler. Böylelikle farkında bile olmadan günümüze kadar ulaşmayı başaran Americano’nun temellerini
+                                atarlar.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/iyi_bir_cappuccino_hazirlamanin_puf_noktalari_nelerdir_ofix_blog.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Cappucino</h5>
+                            <p class="card-text">Espresso, süt ve süt köpüğüyle hazırlanan Cappuccino adını, Capuchin rahiplerinden alıyor. Espresso’dan daha hafif, Latte’den daha sert olan Cappuccino’yu hazırlamak için her bir fincana bir shot Espresso eklenir. Daha sonra
+                                süt, 70 dereceye kadar ısıtılır. Burada önemli olan nokta, sütün üzerinde 2 - 3 santimetreye kadar köpük oluşturabilmektir. Sonrasında ısıtılan süt, Espresso’ya eklenir. Cappuccino’nuza sunum zenginlikleri katmak istiyorsanız,
+                                çikolata parçacıkları ekleyebilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/yunanistan-dan-yaz-sicagina-serinletici-cozum-frappe.jpeg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Frappe</h5>
+                            <p class="card-text">Frappe ilk olarak 1957 senesinde Nestle’nin çocuklara yönelik hazırladığı çikolatalı içecek sayesinde ortaya çıkmıştır. Yunanistan’da yapımına başlanan Frappe için hazır kahveye sıcak değil, soğuk su ekleniyor. 2 tatlı kaşığı
+                                çözünebilir kahve, şeker ve 3 yemek kaşığı soğuk suyu, shaker veya mikser yardımıyla karıştırın. Elde ettiğiniz karışımın yarısını uzunca bir bardağa dökün. Üzerine 7 - 8 adet buz küpü ekleyin. Sonrasında soğuk süt ve suyu
+                                ilave edin. Karışımdan kalan köpüğü de bardağın üzerine eklediğinizde Frappe’niz hazır. Dilediğiniz takdirde içeceğinizi bir miktar krema veya bir top dondurmayla zenginleştirebilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/latte.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Latte</h5>
+                            <p class="card-text">İçimi oldukça hafif olan Latte, 1/3 veya 1/5 oranında Espresso’ya süt eklenmesiyle hazırlanır. Üzerine de süt köpüğü konularak servis edilir. İlk olarak buharda ısıtılmış süt bardağa konulur. Süte 1 shot Espresso eklenir ve
+                                sütten kalan köpük, bardağın üzerine eklenerek Latte sunuma hazır hale getirilir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/shutterstock_746579797.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Macchiato</h5>
+                            <p class="card-text">Sert ve aromalı bir tada sahip olan Macchiato, Espresso’ya köpüklü süt ilave edilerek hazırlanır. Sıcak süt, mikser yardımıyla köpük haline getirildikten sonra 1 shot Espresso’nun üzerine ilave edilir. Dilerseniz, üzerine Hindistan
+                                cevizi ekleyerek servis edebilirsiniz. Macchiato, Long Macchiato ve Latte Macchiato olarak kendi içerisinde ikiye ayrılır. Long Macchiato, 2 shot Espresso ile hazırlanır ve süt köpüğüne ek olarak bir miktar sıcak eklenir.
+                                Latte Macchiato ise Latte ile Macchiato arasındaki tatta bir içecek türüdür</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/mocha nedir-nasil bir kahvedir-3-KahveKafeBlogspotCom.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Mocha</h5>
+                            <p class="card-text">Adını Yemen’de bulunan Mucha Limanı’ndan alan Mocha, 1/3 oranında Espresso ile 2/3 oranında süt ile hazırlanır. Latte ve Cappuccino’dan farkı ise Mocha’da çikolata şurubu veya tozu bulunuyor. Bardağın içerisine çikolata şurubu
+                                veya tozu koyuyorsunuz. Ardından sıcak sütü ilave edip, son olarak da oldukça yavaş bir biçimde, bardağın kenarından Espresso’yu ekliyorsunuz. Çırptığınız sütten elde ettiğiniz süt köpüğünü de kahveye eklediğinizde Mocha,
+                                servise hazır hale geliyor. Farklı tatlar arayanlar kahvesine, vanilya şurubu veya karamel gibi aromalar da katabilirler.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/8-Marocchino-kahvecesitleri-e1608020052456.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Marocchino</h5>
+                            <p class="card-text">İtalya’da oldukça fazla tüketilen Marocchino, 1 shot Espresso, süt köpüğü ve Hindistan cevizi tozuyla hazırlanıyor. 1 Shot espresso üzerine süt köpüğünü ekleyin, son olarak da Hindistan cevizi tozunu ilave ederek kahvenizi
+                                sunuma hazır hale getirebilirsiniz. Hindistan cevizi tozuna ek olarak kahvenize kakao tozu da ilave edebilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/9-Filtre-Kahve-kahvecesitleri-e1608020113349.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Filtre Kahve</h5>
+                            <p class="card-text">Öğütülmüş kahve, metal veya kağıt filtre yardımıyla sıcak sudan geçirilerek demlenir. French Press’te hazırlayacaklar ise cam kap içerisine sıcak su ve öğütülmüş kahveyi koyup, bir süre demlendikten sonra metal filtre yardımıyla
+                                süzerek filtre kahveyi hazır hale getirebilirler. Dünya üzerinde en çok tüketilen kahve olan filtre kahveye dilerseniz süt, şeker veya krema ilave edebilirsiniz.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/10-Çözünebilir-Kahve-kahvecesitleri-e1608020168603.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Çözünebilir Kahve</h5>
+                            <p class="card-text">Espresso ve filtre kahve demlediğiniz zaman geriye kalan posa çöpe atılır. Çözünebilir kahvede ise posa, asıl malzemeyi oluşturur. Kahve tozunu sıcak suya ekleyip karıştırdığınız takdirde kahveniz hazır demektir. Ancak çözünebilir
+                                kahve, pek çok endüstriyel süreçten geçtiği için aromasını ve doğallığını kaybeder. Çoğu ülke, yavaş yavaş çözünebilir kahve tüketimini azaltma yoluna gitmektedir.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card mb-3 shadow">
+                        <img src="img/11-Soğuk-Kahve-kahvecesitleri-e1608020208594.jpg" class="card-img-top" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">Soğuk Kahve</h5>
+                            <p class="card-text">Kahve demlerken sürekli olarak sıcak su kullandığımızdan dolayı kahvenin içerisinde yer alan pek çok yağ asidi çözünür. Bu da kahveye acı bir tat verir. Soğuk kahve hazırlarken kullandığımız su da soğuk olduğu için bu yağ asitleri
+                                çözünmez ve kahve daha yumuşak içimli olur. Soğuk kahve demlemek için temelde kullanabileceğiniz 3 farklı yöntem bulunuyor. Bunlar; Cold Drip, Cold Brew ve Ice Cold Coffee olarak karşımıza çıkıyor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer class="py-5 bg-dark text-white mt-auto">
+        <div class="container text-center">
+            <div class="row mb-3">
+                <div class="col-4">
+                    <a href="index.html" class="link-light" style="text-decoration: none;">Anasayfa</a>
+                </div>
+                <div class="col-4">
+                    <a href="menu.html" class="link-light" style="text-decoration: none;">Menü</a>
+                </div>
+                <div class="col-4">
+                    <a href="index.html" class="link-light" style="text-decoration: none;">İletişim</a>
+                </div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <span>All Right Reserved. @2025</span>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js " integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p " crossorigin="anonymous "></script>
+
+</body>
+
+</html>
